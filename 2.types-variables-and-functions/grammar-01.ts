@@ -15,4 +15,11 @@ function addNumbers(n1: number, n2: number, n3: number) {
   alert(msg);
 }
 
+var init : (startButton: string, pauseButton: string, clearButton: string) => void
+= function(s, p, c) {
+  alert(s);
+  alert(p);
+  alert(c);
+};
+
 addNumbers(num1, num2, 5);
